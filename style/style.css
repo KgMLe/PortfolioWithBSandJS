@@ -1,4 +1,10 @@
-.logo{
+/* logo */
+
+img[alt='logo']{
     width: 51px;
     height: 51px;
+}
+
+body{
+    text-align: center;
 }
