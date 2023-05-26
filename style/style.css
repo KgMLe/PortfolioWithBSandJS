@@ -6,7 +6,26 @@ img[alt='logo']{
 }
 
 body{
-    text-align: center;
+    background-color: #f3e3db;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 479px){
+    #name{
+        font-size: 1rem;
+    }
+}
+
+/* HOME PAGE */
+
+#name{
+    /* background: linear-gradient(to top,#ed1e79 0,#0d1950 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-size: 7rem;
+    display: block;
+    justify-content: end;
+     
 }
 
 /* Custom variables */
